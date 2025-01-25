@@ -14,7 +14,7 @@ Chessroulette is an online platform that combines chess gameplay with real-time 
 
 </div>
 
-## 🙏 Contributing
+## 🙏 Contributing ss
 
 First off, thank you for showing an interest in contributing to the Chessroulette project! We have created a [Contributing Guide](https://github.com/movesthatmatter/chessroulette/blob/main/CONTRIBUTING.md) that will show you how to setup a development environment and how to open pull requests and submit changes.
 
