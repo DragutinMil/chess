@@ -30,15 +30,15 @@ module.exports = withSentryConfig(
 
     // Suppresses source map uploading logs during build
     silent: true,
-    org: 'chessroulette-live',
-    project: 'chessroulette',
+    org: 'outpostchess',
+    project: 'javascript-nextjs',
     authToken: process.env.SENTRY_AUTH_TOKEN,
   },
   {
-    // For all available options, see:
+    // For all available options, see: 
     // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
-    // Upload a larger set of source maps for prettier stack traces (increases build time)
+    // Upload a larger set of source maps for prettier stack traces (increases build time) ...
     widenClientFileUpload: true,
 
     // Transpiles SDK to be compatible with IE11 (increases bundle size)
