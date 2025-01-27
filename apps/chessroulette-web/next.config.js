@@ -35,10 +35,10 @@ module.exports = withSentryConfig(
     authToken: process.env.SENTRY_AUTH_TOKEN,
   },
   {
-    // For all available options, see:
+    // For all available options, see: 
     // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
-    // Upload a larger set of source maps for prettier stack traces (increases build time)
+    // Upload a larger set of source maps for prettier stack traces (increases build time) ...
     widenClientFileUpload: true,
 
     // Transpiles SDK to be compatible with IE11 (increases bundle size)
