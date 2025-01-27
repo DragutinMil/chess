@@ -13,6 +13,7 @@ module.exports = withSentryConfig(
     silent: true,
     org: 'outpostchess',
     project: 'javascript-nextjs',
+    authToken: process.env.SENTRY_AUTH_TOKEN,
   },
   {
     // For all available options, see:
